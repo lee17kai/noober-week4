@@ -6,5 +6,20 @@ window.addEventListener('DOMContentLoaded', async function() {
   console.dir(json)
   
   // 🔥 start here: write the recipe (algorithm), then write the code
+
+  //Recipe:
+
+  //Create a variable for the rides data
+  let rides = json.rides
+  console.log(rides)
+
+  // Loop through the rides data
+
+    // Create a variable to store each ride in memory
+
+    // Create a variable for the HTML element we're going to add to
+
+    // Insert HTML into the rides element, using the data from each product
+    // and the given formatting
   
 })
