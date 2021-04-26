@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     // and the given formatting. If the ride is a X, show the X formatting
     // if the ride is a XL, show that formatting, etc.
     if(temp.purpleRequested == true){
-      // If Noober purple, use that formatting
+      // If Noober purple, use that formatting. Changed border to purple
       list.insertAdjacentHTML(`beforeend`,
         `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
         <i class="fas fa-car-side"></i>
@@ -63,7 +63,7 @@ window.addEventListener('DOMContentLoaded', async function() {
     }
     else if(temp.numberOfPassengers > 3){
       // If not purple requested but number of passengers is greater than 3, 
-      // use Noober XL formatting
+      // use Noober XL formatting. Made XL type a little bigger
       list.insertAdjacentHTML(`beforeend`,
       `<h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       <i class="fas fa-car-side"></i>
