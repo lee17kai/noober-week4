@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   //Recipe:
 
   //Create a variable for the rides data
-  let ride = json.rides
+  let ride = json
   console.log(ride)
 
   // Loop through the rides data
