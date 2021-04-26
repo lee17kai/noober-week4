@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   //Recipe:
 
   //Create a variable for the rides data
-  let rides = json.Array
+  let rides = json.Array(100)
   console.log(rides)
 
   // Loop through the rides data
