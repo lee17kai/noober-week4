@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         <span>Noober Purple</span>
         </h1>
 
-        <div class="border-4 border-gray-500 p-4 my-4 text-left">
+        <div class="border-4 border-purple-500 p-4 my-4 text-left">
           <div class="flex">
             <div class="w-1/2">
               <h2 class="text-2xl py-1">${temp.passengerDetails.first} ${temp.passengerDetails.last}</h2>
