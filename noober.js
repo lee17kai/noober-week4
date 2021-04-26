@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   let json = await response.json()
 
   // writes the returned JSON to the console
-  console.dir(json)
+  //console.dir(json)
   console.log(json)
   
   // 🔥 start here: write the recipe (algorithm), then write the code
@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   console.log(ride)
 
   // Loop through the rides data
-  for(let i = 0; i < 100; i++) {
+  for(let i = 0; i < ride.length; i++) {
 
     // Create a variable to store each ride in memory
     let temp = ride[i]
