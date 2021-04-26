@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   let json = await response.json()
 
   // writes the returned JSON to the console
-  //console.dir(json)
+  console.dir(json)
   console.log(json)
   
   // 🔥 start here: write the recipe (algorithm), then write the code
