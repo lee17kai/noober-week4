@@ -42,7 +42,7 @@ window.addEventListener('DOMContentLoaded', async function() {
             </div>
             <div class="w-1/2 text-right">
               <span class="rounded-xl bg-gray-600 text-white p-2">
-                ${temp.numberOfPassengers}
+                ${temp.numberOfPassengers} passengers
               </span>
             </div>
           </div>
@@ -61,7 +61,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         </div>`
       )
     }
-    else if(temp.numPassengers > 3){
+    else if(temp.numberOfPassengers > 3){
       // If not purple requested but number of passengers is greater than 3, 
       // use Noober XL formatting
       list.insertAdjacentHTML(`beforeend`,
@@ -78,7 +78,7 @@ window.addEventListener('DOMContentLoaded', async function() {
           </div>
           <div class="w-1/2 text-right">
             <span class="rounded-xl bg-gray-600 text-white p-2">
-              ${temp.numberOfPassengers}
+              ${temp.numberOfPassengers} passengers
             </span>
           </div>
         </div>
@@ -114,7 +114,7 @@ window.addEventListener('DOMContentLoaded', async function() {
           </div>
           <div class="w-1/2 text-right">
             <span class="rounded-xl bg-gray-600 text-white p-2">
-              ${temp.numberOfPassengers}
+              ${temp.numberOfPassengers} passengers
             </span>
           </div>
         </div>
