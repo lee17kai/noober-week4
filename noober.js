@@ -4,14 +4,15 @@ window.addEventListener('DOMContentLoaded', async function() {
 
   // writes the returned JSON to the console
   console.dir(json)
+  console.log(json)
   
   // 🔥 start here: write the recipe (algorithm), then write the code
 
   //Recipe:
 
   //Create a variable for the rides data
-  let rides = json.Array(100)
-  console.log(rides)
+  let ride = json.rides
+  console.log(ride)
 
   // Loop through the rides data
 
