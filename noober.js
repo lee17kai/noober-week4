@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', async function() {
   console.log(ride)
 
   // Loop through the rides data
-  for(let i = 0; i<ride.length; i++) {
+  for(let i = 0; i < 100; i++) {
 
     // Create a variable to store each ride in memory
     let temp = ride[i]
